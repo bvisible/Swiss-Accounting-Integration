@@ -25,7 +25,7 @@ In order to Setup QR Bill to Working Following Things are Required
 
 ### To install this Swiss Accounting Integration,
 
-1. bench get-app https://github.com/bvisible/neoffice-theme.git
+1. bench get-app https://github.com/bvisible/Swiss-Accounting-Integration.git
 2. bench --site prod.local install-app swiss-accounting-integration
 3. bench clear-cache
 
