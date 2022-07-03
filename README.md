@@ -1,4 +1,4 @@
-## Swiss Accounting Integration
+## Swiss Accounting Integration for Frappe/ERPNext v14
 
 ERPNext Functionality with Swiss QR Integration 
 and Abacus Export
@@ -21,6 +21,18 @@ In order to Setup QR Bill to Working Following Things are Required
 2. Create A Customer with Proper Address and Language
 3. Create A Bank Account For Company with IBAN
 4. Add Entry in Swiss QR Bill Settings for Company
+
+
+### To install this Swiss Accounting Integration,
+
+1. bench get-app https://github.com/bvisible/neoffice-theme.git
+2. bench --site prod.local install-app swiss-accounting-integration
+3. bench clear-cache
+
+To uninstall this Swiss Accounting Integration,
+
+1. bench --site prod.local uninstall-app swiss-accounting-integration
+
 
 #### License
 
