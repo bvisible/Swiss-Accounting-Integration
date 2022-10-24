@@ -31,7 +31,7 @@ In order to Setup QR Bill to Working Following Things are Required
 
 To uninstall this Swiss Accounting Integration,
 
-1. bench --site prod.local uninstall-app swiss-accounting-integration
+1. bench --site prod.local uninstall-app swiss_accounting_integration
 
 
 #### License
